@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
 //run application
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: SignInScreen(),
     );
